@@ -1,0 +1,22 @@
+{
+  "id": "snake",
+  "name": "Snake",
+  "version": "1.0.0",
+  "description": "The grid classic with a glowing gradient snake, smooth gliding motion, and a saved best score.",
+  "license": "MIT",
+  "entry": "index.jsx",
+  "icon": "icon.png",
+  "offline_capable": false,
+  "permissions": {},
+  "runtime": {
+    "imports": [
+      "react",
+      "@openai/apps-sdk-ui/components/Icon"
+    ],
+    "esm_deps": []
+  },
+  "source_files": [
+    "game.js",
+    "render.js"
+  ]
+}
